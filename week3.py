@@ -115,4 +115,3 @@ elif user_number > answer:
 else:
     print('정답입니다! 축하합니다!')
 
-print("today만우절ㅋ")
