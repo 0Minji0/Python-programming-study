@@ -114,3 +114,5 @@ elif user_number > answer:
     print('더 작은 숫자를 입력하세요!')
 else:
     print('정답입니다! 축하합니다!')
+
+print("today만우절ㅋ")
