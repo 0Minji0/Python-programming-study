@@ -105,13 +105,13 @@
 #     print('배달 불가')
 
 
-answer = 42
-user_number = int(input('1부터 100 사이의 숫자를 입력하세요:'))
+# answer = 42
+# user_number = int(input('1부터 100 사이의 숫자를 입력하세요:'))
 
-if user_number < answer :
-    print('더 큰 숫자를 입력하세요!')
-elif user_number > answer:
-    print('더 작은 숫자를 입력하세요!')
-else:
-    print('정답입니다! 축하합니다!')
+# if user_number < answer :
+#     print('더 큰 숫자를 입력하세요!')
+# elif user_number > answer:
+#     print('더 작은 숫자를 입력하세요!')
+# else:
+#     print('정답입니다! 축하합니다!')
 

@@ -27,12 +27,11 @@
 
 
 ##6번
-# print('I am a student\n')
-# print('^^ Nice to meet you~\t')
+# print('I am a student.\n *\n\t^^Nice to meet you~')
 
 
 ##7번
-# name = str(input('당신의 이름은?'))
+# name = input('당신의 이름은?')
 # age = int(input('당신의 나이는?'))
 # height = int(input('당신의 키는?'))
 # print('이름은 %s, 나이는 %d살, 키는 %dcm입니다' %(name, age, height))
@@ -132,22 +131,9 @@
 
 
 ##20번
-a = int(input())
-b = int(input())
-c = int(input())
-
-if a>b:
-    print(a)
-elif a>c:
-    print(a)
-elif a<b:
-    print(b)
-elif(b>c):
-    print(b)
-elif b<c:
-    print(c)
-elif a<c:
-    print(c)
+# a = int(input())
+# b = int(input())
+# c = int(input())
 
 
 ##21번
@@ -171,7 +157,7 @@ elif a<c:
 
 ##23번
 # year = int(input())
-# if year % 4 ==0 and year % 100 != 0 or year % 400 ==0:
+# if (year % 4 ==0 and year % 100 != 0) or year % 400 ==0:
 #     print('윤년입니다.')
 # else:
 #     print('윤년이 아닙니다.')
@@ -181,12 +167,12 @@ elif a<c:
 # a = int(input())
 # b = int(input())
 
-# if (a-b) >= 10 or (b-a) >= 10:
-#     print('차이가 10이상입니다.')
-# elif ((a-b) < 10 and (a-b) !=0)or ((b-a) < 10 and (b-a) !=0):
-#     print('차이가 10미만입니다.')
-# elif a == b:
+# if a == b:
 #     print('두 수는 같습니다.')
+# elif abs(a-b) >= 10 :
+#     print('차이가 10이상입니다.')
+# elif abs(a-b) < 10 :
+#     print('차이가 10미만입니다.')
 
 
 ##25번
@@ -200,7 +186,7 @@ elif a<c:
 #     print('모두 홀수입니다.')
 # elif a == 0 or b ==0 or c ==0:
 #     print('0은 포함될 수 없습니다.')
-# elif ((a+b+c) % 2 ==1 or (a+b+c) % 2 ==0):
+# else:
 #     print('홀수와 짝수가 섞여 있습니다.')
 
 
